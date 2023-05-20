@@ -1,5 +1,4 @@
-import { Counter } from "./Counter";
-import { GoodreadsBookshelf } from "../../../src/";
+import { GoodreadsBookshelf } from "../../../src";
 
 export { Page };
 
@@ -11,9 +10,6 @@ function Page() {
       This page is:
       <ul>
         <li>Rendered to HTML.</li>
-        <li>
-          Interactive. <Counter />
-        </li>
       </ul>
     </>
   );
